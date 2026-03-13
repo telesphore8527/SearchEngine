@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-text{
+    position: absolute;
+    color: red;
+    top: 20%;
+}
+
+.welcome-text h2{
+    color: snow;
+    font-size: 40px;
+}
+
+.welcome-text h2 span{
+    text-transform: uppercase;
+    
+    color: red;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: url(asserts/154750.jpg);
+    
+}
+form{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(211, 211, 211, 0.25);
+    width: 50%;
+    border-radius: 30px;
+    padding: 5px;
+    border: 2px solid gray;
+    backdrop-filter: blur(15px);
+}
+form input{
+    width: 85%;
+    padding: 10px;
+    border-radius: inherit;
+    background:transparent;
+    font-size: 18px;
+    color: white;
+    border: none;
+}
+
+form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: rgb(128, 136, 143);
+}
+
+form button{
+    border-radius: inherit;
+    padding: 5px;
+    background: rgb(211, 211, 211, 0.4);
+    border: none;
+    cursor: pointer;
+}
+
+button img{
+    width: 30px;
+    height: 30px;
+}
